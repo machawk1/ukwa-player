@@ -35,3 +35,12 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# Mac meta
+.DS_Store
+
+# Electron products
+bowser_components
+dist
+node_modules
+package-lock.json

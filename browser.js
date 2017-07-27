@@ -1,6 +1,7 @@
 const flatpickr = require("flatpickr");
 
 window.onresize = doLayout;
+document.title = 'UKWA Desktop Client'
 var isLoading = false;
 
 onload = function() {

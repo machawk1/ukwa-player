@@ -1,12 +1,16 @@
 {
-  "name": "ukwa-desktop",
+  "name": "UKWA-Desktop-Client",
+  "productName": "UKWA Desktop Client",
   "version": "1.1.0",
   "author": "UK Web Archive",
   "main": "main.js",
+  "description": "UKWA Desktop Client",
+  "repository": {"type": "git", "url": "https://github.com/ukwa/ukwa-player"},
+  "bugs": "https://github.com/ukwa/ukwa-player/issues",
   "build": {
-    "appId": "your.id",
+    "appId": "org.uk.webarchive.desktop",
     "mac": {
-      "category": "your.app.category.type"
+      "category": "public.app-category.utilities"
     }
   },
   "scripts": {
@@ -15,9 +19,12 @@
   },
   "devDependencies": {
     "electron": "1.6.2",
-    "electron-builder": "15.6.2"
+    "electron-builder": "^15.6.2",
+    "electron-prebuilt": "^1.4.13"
   },
   "dependencies": {
-    "flatpickr": "^3.0.6"
+    "flatpickr": "^3.0.6",
+    "package.json": "^2.0.1",
+    "yarn": "^0.27.5"
   }
 }

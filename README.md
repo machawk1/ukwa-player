@@ -1,6 +1,6 @@
 # Browser
 
-A mini browser that shows the usage of [webview](https://github.com/atom/electron/blob/master/docs/api/web-view-tag.md)
+A mini browser that shows the usage of [webview](https://github.com/electron/electron/blob/master/docs/api/webview-tag.md)
 in an app.
 
 The app's main window contains a `<webview>` that is sized to fit most of it
@@ -13,7 +13,17 @@ reliability of your application.
 
 ## APIs
 
-* [webview](https://github.com/atom/electron/blob/master/docs/api/web-view-tag.md)
+* [webview](https://github.com/electron/electron/blob/master/docs/api/webview-tag.md)
+
+## Installation
+
+Clone this repository then install the dependencies:
+
+    npm install .
+
+Once complete, build the binary using:
+
+    yarn dist
 
 
 # UKWA Desktop Client
@@ -31,4 +41,3 @@ More sophisticate versions could use pywb (as per [WAIL](https://github.com/N0ta
 Use this nice date picker to pick target date: https://chmln.github.io/flatpickr/getting-started/
 
 Add some kind of timeline of captures, a-la Wayback timeline.
-
